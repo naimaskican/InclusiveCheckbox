@@ -34,7 +34,7 @@
   --outline-offset: 2px;
 }
 
-// hide the checkbox accessibly
+/* hide the checkbox accessibly */
 .c-custom-checkbox input[type="checkbox"] {
   /* remove the checkbox from the page flow, positioning it on top of the SVG */
   position: absolute;
@@ -45,7 +45,7 @@
   opacity: 0;
 }
 
-// basic styles for the svg
+/* basic styles for the svg */
 .c-custom-checkbox svg {
   /* set SVG dimensions in ems; i.e. relative to the font size so that it scales with the size of the font. */
   width: 1em;
@@ -60,7 +60,7 @@
   }
 }
 
-// style changes inside the svg when the checkbox is checked
+/* style changes inside the svg when the checkbox is checked */
 .c-custom-checkbox input[type="checkbox"]:checked + svg {
   .cb-bg {
     fill: var(--checked-state-bg-color);
